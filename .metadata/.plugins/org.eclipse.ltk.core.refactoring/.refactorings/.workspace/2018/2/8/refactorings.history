@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Java プロジェクト名 &apos;Capsel&apos; を &apos;Capsule&apos; に変更&#x0D;&#x0A;- オリジナル要素: &apos;Capsel&apos;&#x0D;&#x0A;- 名前変更済み要素: &apos;Capsel&apos;&#x0D;&#x0A;- リファクタリングされた要素の参照を更新" description="Java プロジェクト &apos;Capsel&apos; の名前変更" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Capsel" name="Capsule" references="true" stamp="1519359706113" version="1.0"/>
+</session>
