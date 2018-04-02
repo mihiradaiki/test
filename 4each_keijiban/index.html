@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+<meta charset="UTF-8">
+    <title>4eachblog 掲示板</title>
+    <link rel="stylesheet" type="text/css"href="style.css"></head>
+    
+<body>
+   <img src="4eachblog_logo.jpg">
+    <header>
+    <ul>
+        <li>トップ</li>
+     <li>プロフィール</li> 
+        <li>4eachについて</li> 
+        <li>登録フォーム</li>
+     <li>問い合わせ</li> 
+        <li>その他</li>
+        </ul>
+      </header>
+    
+    
+    <main>
+        <div class="mainconteiner">
+            <div class="left">
+        <div class="title"><h1>プログラミングに役立つ掲示板</h1></div>
+                
+               
+        <form method="post" action="insert.php">
+            <h2>入力フォーム</h2> 
+        <div><label>ハンドルネーム<br><input type="text"class="text"name="handlename" size="50"></label></div>
+                
+            
+            <div><label>タイトル<br><input type="text"class="text"name="title" size="50"></label></div>
+            <div><label>コメント<br><textarea name="comments" rows="10" cols="80"></textarea></label></div>
+            
+            <div><input type="submit" class="submit"value="送信する"></div>
+                </form>
+      </div>   
+          
+            <div class="right">
+                <h2>人気の記事</h2>
+            
+            <p>PHP オススメ本</p>
+            <p>PHP Myadminの使い方</p>
+            <p>今人気のエディタ　Top5</p>
+            <p>HTMLの基礎</p>
+             
+                
+               <h2>オススメリンク</h2>
+                <p>インターノウス株式会社</p>
+            <p>XAMPPのダウンロード</p>
+            <p>Edipseのダウンロード</p>
+            <p>Eracketsのダウンロード</p>
+                   
+                   <h2>カテゴリ</h2>
+                   <p>HTML</p>
+            <p>PHP</p>
+            <p>MySQL</p>
+            <p>JavaScript</p>
+                
+                
+                </div>
+    </div>
+    </main>
+   
+    
+    <footer>copyright internous | 4each blog is the one which provides A to Z about prpgramming.</footer>
+    
+    
+   </body>    
+</html>
